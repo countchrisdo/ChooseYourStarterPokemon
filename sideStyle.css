@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* Side Page Style Sheet */
+
+
+nav > img{width: 10%;
+  height: auto;}
+
+#charGIF {transform: rotate(20deg);}
+#charGIF2 {transform: rotate(-20deg);}
+
+#bulbGIF {transform: rotate(-20deg);}
+#bulbGIF2 {transform: rotate(20deg);}
+
+#squirtGIF {transform: rotate(-20deg);}
+#squirtGIF2 {transform: rotate(20deg);}
+
+
+h1 {text-shadow: 2px 2px 8px black;
+    text-decoration: underline}
+
+p, ul, footer, h4 {
+    text-shadow:
+        -1px -1px white,  
+        1px -1px white,
+        -1px 1px white,
+        1px 1px white;}
+
+p, ul {font-size:120%; }
+
+body {background-image:url(pokemon-backgrounds_757855.jpg);
+      background-color: white;
+      background-repeat:no-repeat;
+      background-size:contain;
+      }
+
+article {border: 15px solid black;
+         padding: 10px;}
+
+

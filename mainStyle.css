@@ -1,0 +1,93 @@
+/* Main Page Style Sheet */
+
+@charset "UTF-8";
+
+body {background-image:url(Wallpaper.png);
+      background-color: rgb(146, 201, 242);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: bottom;
+      margin: 3%;
+	  max-width: 95%;
+      font-size: 16pt;
+      font-family: sans-serif;}
+
+nav {text-align: center;}
+
+article > img {float:right;}
+
+article {border: 10px solid cyan;
+         padding: 10px;}
+
+h1 {width: 100%;
+    text-align: center;
+    font-size: 300%;
+    text-shadow: 2px 2px 8px cyan;
+    text-decoration: underline}
+
+h2 {font-size: 100%;
+float: right;
+}
+
+h3 {width: 500px;
+    font-size: 200%;
+    font-style: oblique, italic;
+    }
+
+h4 { width:100%;
+	color: black;
+    font-size: 100%;
+clear: right}
+
+p {width: 90%;
+	;}
+
+p2 {width: 90%;
+    background-color: cyan;
+	;}
+
+footer {
+	width: 50%;
+	clear: both;
+    padding-top: 10px;}
+
+/* Chart */
+
+#typechart {width:100%;
+        border-collapse: collapse;
+        background-color:transparent;
+        border-color:"cyan";}
+
+#super {background-color: green;
+       color: aliceblue;}
+#weak {background-color:red;
+       color:aliceblue;}
+#null {background-color: black;
+       color: aliceblue;}
+caption {color:black}
+
+/* Links */
+
+a.one {color: black;
+  padding: 14px 25px;
+  border: 2px solid black;
+background-color: aliceblue;}
+a.one:visited {color: black;}
+a.one:hover {background-color: orangered;
+    font-size: 110%;}
+     
+a.two {color: black;
+  padding: 14px 25px;
+  border: 2px solid black;
+background-color: aliceblue;}        
+a.two:hover {background-color: aqua;
+font-size: 110%;}
+     a.two:visited {color: black;}
+
+a.thr {color: black;
+  padding: 14px 25px;
+  border: 2px solid black;
+background-color: aliceblue;}
+a.thr:hover {background-color: forestgreen;
+font-size: 110%;}
+     a.thr:visited {color: black;}
